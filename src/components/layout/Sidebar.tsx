@@ -2,11 +2,11 @@ import { useState } from "react";
 import {
   Home,
   Euro,
-  Wrench,
   Users,
-  Building2,
-  Shield,
-  FileText,
+  // Wrench,
+  // Building2,
+  // Shield,
+  // FileText,
   ChevronDown,
   Sparkles,
   User,
@@ -38,11 +38,11 @@ import {
 const navigationItems = [
   { icon: Home, label: "Dashboard", path: "/", exact: true },
   { icon: Euro, label: "Financial Management", path: "/financial" },
-  { icon: Wrench, label: "Facility Management", path: "/facility" },
-  { icon: Users, label: "Occupancy & Utilization", path: "/occupancy" },
-  { icon: Building2, label: "Building Management", path: "/building" },
-  { icon: Shield, label: "Security", path: "/security" },
-  { icon: FileText, label: "Reports", path: "/reports" },
+  // { icon: Wrench, label: "Facility Management", path: "/facility" },
+  // { icon: Users, label: "Occupancy & Utilization", path: "/occupancy" },
+  // { icon: Building2, label: "Building Management", path: "/building" },
+  // { icon: Shield, label: "Security", path: "/security" },
+  // { icon: FileText, label: "Reports", path: "/reports" },
 ];
 
 const currentUser = {
